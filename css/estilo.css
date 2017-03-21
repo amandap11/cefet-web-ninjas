@@ -1,0 +1,73 @@
+body {
+  	background-color: #E0FFFF;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+img {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+img.logomarca {  	
+  	max-width: 200px;
+  	width: auto;
+  	height: auto;
+}
+
+img.texto{
+  	white-space: nowrap;
+}
+
+iframe {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	white-space: nowrap;
+}
+
+h1, h2 {
+	font-family: cursive;
+	color: #8B0000;
+}
+
+p {
+	text-align: justify;
+}
+
+strong {
+	color: #8B0000;
+	font-size: 20px;
+	background-color: #FFC1C1;
+}
+
+em.nota {
+	opacity: 0.6;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #006400;
+}
+
+a:visited {
+	color: #EE7942;
+}
+
+a:hover {
+	color: #B22222;
+}
+
+a:active {
+	color: #9400D3;
+}
+
+a[href*="http://"] {
+	background-image: url("../img/globo.png");
+  	background-repeat: no-repeat;
+  	padding-left: 20px;
+}
